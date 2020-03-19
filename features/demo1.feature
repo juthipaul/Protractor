@@ -62,4 +62,4 @@ Scenario Outline: Get page functionality testing
 Scenario: Check the Library page filter post login
  Given User logged in to state account 
  When Check available filters
- Then Board,Class,Subject,Medium filters
+ Then Board,Class,Subject,Medium filtersddd
