@@ -8,6 +8,7 @@ export class workspace {
     {
         this.firstCreate=element(by.buttonText("Start creating"));
         this.tocTitle=element(by.className("header-title"));
+        this.tocTitle=element(by.className("header-title"));
         
 
     }
