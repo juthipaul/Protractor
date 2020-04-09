@@ -30,7 +30,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7385000000
+              "duration": 6927000000
             }
           },
           {
@@ -43,8 +43,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 8386000000,
-              "error_message": "NoSuchElementError: No element found using locator: By(xpath, header-title)\n    at /Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/node_modules/protractor/built/element.js:814:27\n    at ManagedPromise.invokeCallback_ (/Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at /Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/node_modules/selenium-webdriver/lib/promise.js:2927:27\n    at /Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)Error\n    at ElementArrayFinder.applyAction_ (/Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.<computed> [as getText] (/Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.<computed> [as getText] (/Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/node_modules/protractor/built/element.js:831:22)\n    at /Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/stepDefinitions/steps.ts:44:47\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/JSFiles/stepDefinitions/steps.js:5:58)"
+              "duration": 10006000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout._onTimeout (/Users/juthika/Desktop/Protractor/DIKSHACUCUMBER/node_modules/cucumber/lib/user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:531:17)\n    at processTimers (internal/timers.js:475:7)"
             }
           },
           {

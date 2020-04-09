@@ -1,0 +1,5 @@
+var config = function () {
+    this.setDefaultTimeout(60 * 1000);
+};
+module.exports = config;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGltZW91dC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL1Byb3RyYWN0b3Ivc3RlcERlZmluaXRpb25zL3RpbWVvdXQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsSUFBSSxNQUFNLEdBQUc7SUFDVCxJQUFJLENBQUMsaUJBQWlCLENBQUMsRUFBRSxHQUFDLElBQUksQ0FBQyxDQUFDO0FBQ3BDLENBQUMsQ0FBQztBQUVGLE1BQU0sQ0FBQyxPQUFPLEdBQUcsTUFBTSxDQUFDIn0=

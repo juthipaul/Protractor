@@ -12,9 +12,13 @@ exports.config = {
     //Capabilities to be passed to the webdriver instance.
     capabilities: {
     browserName: 'chrome',
-    chromeOptions: {
-      args: ['--no-sandbox']
-    }
+    //sharedTestFiles: true,
+    //maxInstances: 2,
+    //count: 2,
+   // suites: { samples: ['steps.js','steps1.js'] }
+    //chromeOptions: {
+     // args: ['--no-sandbox']
+   // }
     },
    // esModuleInterop: true,
     // Spec patterns are relative to the configuration file location passed
@@ -29,6 +33,7 @@ exports.config = {
              // require step definitions
         require: [
           '../JSFiles/stepDefinitions/steps.js' // accepts a glob
+          //,'../JSFiles/stepDefinitions/steps1.js'
         ]
       },
       onComplete: () =>{
